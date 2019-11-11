@@ -19,12 +19,12 @@ import (
 	"fmt"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/mvcc"
-	"go.etcd.io/etcd/pkg/traceutil"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/atpons/etcd/clientv3"
+	"github.com/atpons/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/atpons/etcd/etcdserver/etcdserverpb"
+	"github.com/atpons/etcd/mvcc"
+	"github.com/atpons/etcd/pkg/traceutil"
+	"github.com/atpons/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

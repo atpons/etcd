@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/raft/raftpb"
+	"github.com/atpons/etcd/raft/raftpb"
 	"go.uber.org/zap"
 )
 

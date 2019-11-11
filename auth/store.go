@@ -24,10 +24,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.etcd.io/etcd/auth/authpb"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/mvcc/backend"
+	"github.com/atpons/etcd/auth/authpb"
+	"github.com/atpons/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/atpons/etcd/etcdserver/etcdserverpb"
+	"github.com/atpons/etcd/mvcc/backend"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"
@@ -48,7 +48,7 @@ var (
 	authUsersBucketName = []byte("authUsers")
 	authRolesBucketName = []byte("authRoles")
 
-	plog = capnslog.NewPackageLogger("go.etcd.io/etcd", "auth")
+	plog = capnslog.NewPackageLogger("github.com/atpons/etcd", "auth")
 
 	ErrRootUserNotExist     = errors.New("auth: root user does not exist")
 	ErrRootRoleNotExist     = errors.New("auth: root user does not have root role")

@@ -20,7 +20,7 @@ import (
 	"strings"
 
 	"github.com/urfave/cli"
-	"go.etcd.io/etcd/client"
+	"github.com/atpons/etcd/client"
 )
 
 func NewAuthCommands() cli.Command {

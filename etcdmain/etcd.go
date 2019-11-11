@@ -26,17 +26,17 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/embed"
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api/etcdhttp"
-	"go.etcd.io/etcd/etcdserver/api/v2discovery"
-	"go.etcd.io/etcd/pkg/fileutil"
-	pkgioutil "go.etcd.io/etcd/pkg/ioutil"
-	"go.etcd.io/etcd/pkg/osutil"
-	"go.etcd.io/etcd/pkg/transport"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/proxy/httpproxy"
-	"go.etcd.io/etcd/version"
+	"github.com/atpons/etcd/embed"
+	"github.com/atpons/etcd/etcdserver"
+	"github.com/atpons/etcd/etcdserver/api/etcdhttp"
+	"github.com/atpons/etcd/etcdserver/api/v2discovery"
+	"github.com/atpons/etcd/pkg/fileutil"
+	pkgioutil "github.com/atpons/etcd/pkg/ioutil"
+	"github.com/atpons/etcd/pkg/osutil"
+	"github.com/atpons/etcd/pkg/transport"
+	"github.com/atpons/etcd/pkg/types"
+	"github.com/atpons/etcd/proxy/httpproxy"
+	"github.com/atpons/etcd/version"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"
@@ -45,7 +45,7 @@ import (
 
 type dirType string
 
-var plog = capnslog.NewPackageLogger("go.etcd.io/etcd", "etcdmain")
+var plog = capnslog.NewPackageLogger("github.com/atpons/etcd", "etcdmain")
 
 var (
 	dirMember = dirType("member")

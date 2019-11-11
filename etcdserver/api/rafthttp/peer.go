@@ -19,11 +19,11 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver/api/snap"
-	stats "go.etcd.io/etcd/etcdserver/api/v2stats"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft"
-	"go.etcd.io/etcd/raft/raftpb"
+	"github.com/atpons/etcd/etcdserver/api/snap"
+	stats "github.com/atpons/etcd/etcdserver/api/v2stats"
+	"github.com/atpons/etcd/pkg/types"
+	"github.com/atpons/etcd/raft"
+	"github.com/atpons/etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"

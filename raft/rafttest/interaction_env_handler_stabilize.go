@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/cockroachdb/datadriven"
-	"go.etcd.io/etcd/raft/raftpb"
+	"github.com/atpons/etcd/raft/raftpb"
 )
 
 func (env *InteractionEnv) handleStabilize(t *testing.T, d datadriven.TestData) error {

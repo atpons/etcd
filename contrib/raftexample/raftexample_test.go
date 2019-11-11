@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/raft/raftpb"
+	"github.com/atpons/etcd/raft/raftpb"
 )
 
 type cluster struct {

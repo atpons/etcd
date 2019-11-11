@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"go.etcd.io/etcd/lease/leasepb"
-	"go.etcd.io/etcd/mvcc"
-	"go.etcd.io/etcd/mvcc/backend"
-	"go.etcd.io/etcd/mvcc/mvccpb"
+	"github.com/atpons/etcd/lease/leasepb"
+	"github.com/atpons/etcd/mvcc"
+	"github.com/atpons/etcd/mvcc/backend"
+	"github.com/atpons/etcd/mvcc/mvccpb"
 
 	bolt "go.etcd.io/bbolt"
 )

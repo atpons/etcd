@@ -19,8 +19,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.etcd.io/etcd/pkg/fileutil"
-	"go.etcd.io/etcd/wal/walpb"
+	"github.com/atpons/etcd/pkg/fileutil"
+	"github.com/atpons/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/integration"
-	"go.etcd.io/etcd/pkg/testutil"
-	"go.etcd.io/etcd/pkg/transport"
+	"github.com/atpons/etcd/integration"
+	"github.com/atpons/etcd/pkg/testutil"
+	"github.com/atpons/etcd/pkg/transport"
 )
 
 var exampleEndpoints []string

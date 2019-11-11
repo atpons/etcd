@@ -29,9 +29,9 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/functional/rpcpb"
-	"go.etcd.io/etcd/pkg/debugutil"
-	"go.etcd.io/etcd/pkg/fileutil"
+	"github.com/atpons/etcd/functional/rpcpb"
+	"github.com/atpons/etcd/pkg/debugutil"
+	"github.com/atpons/etcd/pkg/fileutil"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.uber.org/zap"

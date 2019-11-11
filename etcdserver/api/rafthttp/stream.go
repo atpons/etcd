@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	stats "go.etcd.io/etcd/etcdserver/api/v2stats"
-	"go.etcd.io/etcd/pkg/httputil"
-	"go.etcd.io/etcd/pkg/transport"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/version"
+	stats "github.com/atpons/etcd/etcdserver/api/v2stats"
+	"github.com/atpons/etcd/pkg/httputil"
+	"github.com/atpons/etcd/pkg/transport"
+	"github.com/atpons/etcd/pkg/types"
+	"github.com/atpons/etcd/raft/raftpb"
+	"github.com/atpons/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

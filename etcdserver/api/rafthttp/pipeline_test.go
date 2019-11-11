@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	stats "go.etcd.io/etcd/etcdserver/api/v2stats"
-	"go.etcd.io/etcd/pkg/testutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/version"
+	stats "github.com/atpons/etcd/etcdserver/api/v2stats"
+	"github.com/atpons/etcd/pkg/testutil"
+	"github.com/atpons/etcd/pkg/types"
+	"github.com/atpons/etcd/raft/raftpb"
+	"github.com/atpons/etcd/version"
 
 	"go.uber.org/zap"
 )

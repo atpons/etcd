@@ -21,8 +21,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	pb "go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/raft/tracker"
+	pb "github.com/atpons/etcd/raft/raftpb"
+	"github.com/atpons/etcd/raft/tracker"
 )
 
 type rndConfChange pb.ConfState

@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/etcdserver/etcdserverpb"
+	"github.com/atpons/etcd/etcdserver/etcdserverpb"
 )
 
 func TestCompactOp(t *testing.T) {

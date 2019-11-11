@@ -21,12 +21,12 @@ import (
 	"strconv"
 	"strings"
 
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api"
-	"go.etcd.io/etcd/etcdserver/api/membership"
-	"go.etcd.io/etcd/etcdserver/api/rafthttp"
-	"go.etcd.io/etcd/lease/leasehttp"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/atpons/etcd/etcdserver"
+	"github.com/atpons/etcd/etcdserver/api"
+	"github.com/atpons/etcd/etcdserver/api/membership"
+	"github.com/atpons/etcd/etcdserver/api/rafthttp"
+	"github.com/atpons/etcd/lease/leasehttp"
+	"github.com/atpons/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )
